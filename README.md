@@ -6,15 +6,15 @@
 ### usage
 
 ```js
-const { Router } = require('koa-router-class');
+import { Router } from 'koa-router-class';
 
 app.use(Router());
 ```
 
 #### IndexController.ts
 ```js
-import Result from '../../src/core/Result';
-import { Path, RequestMethod, BaseController, Param, Around, middlewareToAround, Inject } from '../../src/index';
+import { Path, Result, RequestMethod, BaseController, Param, Around, middlewareToAround, Inject } from 'koa-router-class';
+
 import Test from '../service/Test';
 
 // Path 修饰 class 时，参数为根路由(参数只能一个)
