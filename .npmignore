@@ -1,6 +1,7 @@
 src
 test
 app
+.DS_Store
 .vscode
 .eslintrc.js
 tsconfig.json
